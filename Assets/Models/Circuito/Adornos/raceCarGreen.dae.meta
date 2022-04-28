@@ -3,7 +3,27 @@ guid: ee07b3424e8436a4abc98ba9421b4ba7
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carTire
+    second: {fileID: 2100000, guid: 14c54e8f3300cc643bf506e943fc991b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 21a919f786c1a9c4bb01de7c43bce78c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass
+    second: {fileID: 2100000, guid: 02116374e2ad918489c782d43aff3359, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey
+    second: {fileID: 2100000, guid: 5fc5b9f6cf1dd524bafed24828a5320c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
