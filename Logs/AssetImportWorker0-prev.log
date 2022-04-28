@@ -15,11 +15,11 @@ C:/ProyectoFinalDAM/FantasyRacingGithub/FantasyRacing
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50085
+57378
 Successfully changed project path to: C:/ProyectoFinalDAM/FantasyRacingGithub/FantasyRacing
 C:/ProyectoFinalDAM/FantasyRacingGithub/FantasyRacing
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.12f1/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
@@ -35,74 +35,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.12f1/Editor/2020.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.12f1/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.12f1/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.12f1/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002432 seconds.
+Registered in 0.001940 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.634 seconds
+- Completed reload, in  0.613 seconds
 Domain Reload Profiling:
-	ReloadAssembly (634ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (613ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (499ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (461ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (163ms)
+			SetupTypeCache (154ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (187ms)
+			SetupLoadedEditorAssemblies (167ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (34ms)
-				BeforeProcessingInitializeOnLoad (22ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003134 seconds.
+Registered in 0.003237 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.162 seconds
+- Completed reload, in  1.084 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1163ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (1085ms)
+		BeginReloadAssembly (150ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (950ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (863ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (297ms)
+			SetupTypeCache (336ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (302ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (201ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (186ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -110,453 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.0 MB.
-System memory in use after: 83.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1963.
-Total: 2.516600 ms (FindLiveObjects: 0.121900 ms CreateObjectMapping: 0.046600 ms MarkObjects: 2.269200 ms  DeleteObjects: 0.078100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/CircuitoKarting.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CircuitoKarting.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc580e5282554619081d7528fdaa9443') in 0.010567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.546514 seconds.
-  path: Assets/Scenes/Ovalo.unity
-  artifactKey: Guid(34201d2f278123742b00137592ccc0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Ovalo.unity using Guid(34201d2f278123742b00137592ccc0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da90baee6a66e3db22ed825e79454bab') in 0.012052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.482079 seconds.
-  path: Assets/Scenes/Ovalo 1.unity
-  artifactKey: Guid(4885e54836235864c9d66f983137bdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Ovalo 1.unity using Guid(4885e54836235864c9d66f983137bdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f726e42af5b49dc61923c798c22b4c') in 0.009053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.391187 seconds.
-  path: Assets/Scenes/Karting.unity
-  artifactKey: Guid(4885e54836235864c9d66f983137bdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Karting.unity using Guid(4885e54836235864c9d66f983137bdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e831c39aebf3a198c0c01c515899d8') in 0.006391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 243.226729 seconds.
-  path: Assets/Models/Circuito/Planos
-  artifactKey: Guid(26ed12dc497d54881957dae81bf3751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos using Guid(26ed12dc497d54881957dae81bf3751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a521b6ea25233b432423d6efa82b62') in 0.007277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.038417 seconds.
-  path: Assets/Models/Circuito/Planos/roadCrossing.dae
-  artifactKey: Guid(1dffe0cfc0b9e4936aed39e5cdb4876d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadCrossing.dae using Guid(1dffe0cfc0b9e4936aed39e5cdb4876d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cc267545e9a3e6454620a2141ced74') in 0.181146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000470 seconds.
-  path: Assets/Models/Circuito/Planos/roadPitGarage.dae
-  artifactKey: Guid(f29562cd1850841df9d75c7d609ad11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadPitGarage.dae using Guid(f29562cd1850841df9d75c7d609ad11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21799c77117657b86f7da2cf23344e41') in 0.030775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000610 seconds.
-  path: Assets/Models/Circuito/Planos/roadStraightLongBumpRound.dae
-  artifactKey: Guid(3c85177dcbb594f228c4f07bc76674e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadStraightLongBumpRound.dae using Guid(3c85177dcbb594f228c4f07bc76674e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390ec8ecc244bd3da094ddef09363a17') in 0.025415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Models/Circuito/Planos/roadEnd.dae
-  artifactKey: Guid(1ccba5f27bf1c48ed8d69e07e46b0387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadEnd.dae using Guid(1ccba5f27bf1c48ed8d69e07e46b0387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d056cc8f93e3acdfd99cf0446749ada') in 0.028227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Models/Circuito/Planos/roadStraightLong.dae
-  artifactKey: Guid(40f35bb7da30e4513b7aecd12fa36341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadStraightLong.dae using Guid(40f35bb7da30e4513b7aecd12fa36341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f629d16a89500e6004625c1d43c1fec6') in 0.025266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000586 seconds.
-  path: Assets/Models/Circuito/Planos/roadStraightArrow.dae
-  artifactKey: Guid(6123f1c0dd4054236947ec679146e44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadStraightArrow.dae using Guid(6123f1c0dd4054236947ec679146e44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adc011f2ce7addccbb842bfb6012c43') in 0.028493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Models/Circuito/Planos/roadSide.dae
-  artifactKey: Guid(3dd8d4d743a20480897cac566cbb4a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadSide.dae using Guid(3dd8d4d743a20480897cac566cbb4a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04b91a625fc1acc7e5f7045e6ffa22c') in 0.027429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Models/Circuito/Planos/roadPitStraightLong.dae
-  artifactKey: Guid(e0f6afa206b4b40058c27bc7c2b671b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadPitStraightLong.dae using Guid(e0f6afa206b4b40058c27bc7c2b671b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417729af2f8db7e58531ef71982115f4') in 0.030489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Models/Circuito/Planos/roadStartPositions.dae
-  artifactKey: Guid(956f67bccb5f845faad8a2eb99efdceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadStartPositions.dae using Guid(956f67bccb5f845faad8a2eb99efdceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba2c0afd2745e801aaaa33449e9a297') in 0.025736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Models/Circuito/Planos/roadPitEntry.dae
-  artifactKey: Guid(23b12ff06917740928f4c92d6dc46e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadPitEntry.dae using Guid(23b12ff06917740928f4c92d6dc46e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c10c965b4f68e449e5117751b4d2e4') in 0.030396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Models/Circuito/Planos/roadPitStraight.dae
-  artifactKey: Guid(cf0b09d9e1d15454fbe283d938ab3573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadPitStraight.dae using Guid(cf0b09d9e1d15454fbe283d938ab3573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6fe20afef4739d554037a04ea0d1dc') in 0.028968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/Models/Circuito/Planos/roadStraightSkew.dae
-  artifactKey: Guid(8867600e9b9ee48c7bc59998a68963f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadStraightSkew.dae using Guid(8867600e9b9ee48c7bc59998a68963f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65dd9cbab1f183f89c7e3e77a7269d7f') in 0.026016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Models/Circuito/Planos/roadStraight.dae
-  artifactKey: Guid(617842857ba5f4b1782cc78e4b44797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadStraight.dae using Guid(617842857ba5f4b1782cc78e4b44797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd518029d41b00a6f358759c1e1bb98') in 0.028223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/Models/Circuito/Planos/roadStraightLongMid.dae
-  artifactKey: Guid(7274cad29957b490ea0f3a2254317ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadStraightLongMid.dae using Guid(7274cad29957b490ea0f3a2254317ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801e63fcccda036cac1b5202d7f48753') in 0.027936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Models/Circuito/Planos/roadStart.dae
-  artifactKey: Guid(154df2051892748de985b03910929287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadStart.dae using Guid(154df2051892748de985b03910929287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913704b664b464fa5f5ffe9c15dba691') in 0.027108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Models/Circuito/Planos/roadSplit.dae
-  artifactKey: Guid(fb17fdb39f69b4e96aba5ab0322599fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadSplit.dae using Guid(fb17fdb39f69b4e96aba5ab0322599fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589156c56db01086e93c38b81e5a2ff9') in 0.026971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Models/Circuito/Planos/roadSplitSmall.dae
-  artifactKey: Guid(dbb8892de49134e28b53dd5676fe3ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Planos/roadSplitSmall.dae using Guid(dbb8892de49134e28b53dd5676fe3ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459c85b354039ef5fdb54c5feadf53d1') in 0.028275 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4533.999883 seconds.
-  path: Assets/Models/Circuito/Curvas
-  artifactKey: Guid(96623e3a52a144b2da2e87e1aa85a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas using Guid(96623e3a52a144b2da2e87e1aa85a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53397990f489be0ca773ee069eaae29') in 0.005305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.062482 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerBridgeLarge.dae
-  artifactKey: Guid(0a94d0728e15544f48533581c266c61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerBridgeLarge.dae using Guid(0a94d0728e15544f48533581c266c61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d98083744e5b4d953d67c2670b07a2') in 0.035166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerSmallSquare.dae
-  artifactKey: Guid(986b73620360143419d066ca36234bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerSmallSquare.dae using Guid(986b73620360143419d066ca36234bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29797ebd6d36f6d13d3f02283cc90c6e') in 0.022456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerSmall.dae
-  artifactKey: Guid(9f11c0705ac754045bb617b5c7152014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerSmall.dae using Guid(9f11c0705ac754045bb617b5c7152014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82804164768dc42bbc0d6de51ca7bf86') in 0.024431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerBridgeLarger.dae
-  artifactKey: Guid(d3f9c2e61ef8e483b8c056b3dddcedd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerBridgeLarger.dae using Guid(d3f9c2e61ef8e483b8c056b3dddcedd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0290e2f6bb95540808a861622df645') in 0.022150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerLargeBorder.dae
-  artifactKey: Guid(3c9aa66f6e831694dba2fadf2c80a53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerLargeBorder.dae using Guid(3c9aa66f6e831694dba2fadf2c80a53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaeff01899d33df612f3980baf6c3af4') in 0.019640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerLargeSandInner.dae
-  artifactKey: Guid(46c74cb9873e016498770a70f38a52f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerLargeSandInner.dae using Guid(46c74cb9873e016498770a70f38a52f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e264f9d7ddabd2ef4e23efb48db9172') in 0.016654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerLargerSand.dae
-  artifactKey: Guid(5af7d0c85948d9242b1ac1268e89a53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerLargerSand.dae using Guid(5af7d0c85948d9242b1ac1268e89a53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfcfac3e84bd252ac41d2b041033a99') in 0.016166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerLargeSand.dae
-  artifactKey: Guid(fde9d860dbf5a5c4fb05a266461e553c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerLargeSand.dae using Guid(fde9d860dbf5a5c4fb05a266461e553c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c046fec846d49822e4e0a796ca39db') in 0.016907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerLargeWallInner.dae
-  artifactKey: Guid(9c0e465ff34ceb14488fa1a74a699995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerLargeWallInner.dae using Guid(9c0e465ff34ceb14488fa1a74a699995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f4bec6afdba3dfb426c5e43ebb7e65') in 0.022592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerLargerBorderInner.dae
-  artifactKey: Guid(2945366381a471343b4c1fe8781e095f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerLargerBorderInner.dae using Guid(2945366381a471343b4c1fe8781e095f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07df063d28eb06982e33a14e93424285') in 0.019018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerSmallWall.dae
-  artifactKey: Guid(0dcebc454dfe2064db8f6799b910f160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerSmallWall.dae using Guid(0dcebc454dfe2064db8f6799b910f160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e45e4afa78184b1b1f555a1f7c43c4') in 0.019235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Models/Circuito/Curvas/roadSplitRoundLarge.dae
-  artifactKey: Guid(358e7182d24ac4f9f8f8f8e4a2cbba62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadSplitRoundLarge.dae using Guid(358e7182d24ac4f9f8f8f8e4a2cbba62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090cf43bdd1e29ee17c632e1735a017b') in 0.023676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerLargeWall.dae
-  artifactKey: Guid(551f56bc57bab5f42b8b71c9fa8873dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerLargeWall.dae using Guid(551f56bc57bab5f42b8b71c9fa8873dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db0d6a91bea35ba5429d84a35bd3df6') in 0.018640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerSmallBorder.dae
-  artifactKey: Guid(bde17e43b965b004a91846496a200f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerSmallBorder.dae using Guid(bde17e43b965b004a91846496a200f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b50e8b9d050d8ceb662b7196a8944f5') in 0.019202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerLargerWallInner.dae
-  artifactKey: Guid(e40a0231bd8774347b2b3f436ea7289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerLargerWallInner.dae using Guid(e40a0231bd8774347b2b3f436ea7289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1d917f0bda8d6efa3c583537c1d3b2') in 0.019206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerBridgeSmall.dae
-  artifactKey: Guid(2b16a2a64c6984bc998c04aec406d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerBridgeSmall.dae using Guid(2b16a2a64c6984bc998c04aec406d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef9cbc56d8bd33e6cc855c39550fa4f') in 0.023241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerLargerBorder.dae
-  artifactKey: Guid(dce50bad50df2a345a723d122064e2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerLargerBorder.dae using Guid(dce50bad50df2a345a723d122064e2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2a542f40e2191bbdf97797bcb9cd93') in 0.018794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCurvedSplit.dae
-  artifactKey: Guid(3a8f9cf64a69843dcb726ca513d0e2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCurvedSplit.dae using Guid(3a8f9cf64a69843dcb726ca513d0e2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e040231ab473aac48e29b3cf2b8942') in 0.023028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Models/Circuito/Curvas/roadSplitRound.dae
-  artifactKey: Guid(6a08123e4f6904d0a987df5f2110136b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadSplitRound.dae using Guid(6a08123e4f6904d0a987df5f2110136b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951d32d0d95104ce4270fbc321f70e37') in 0.022856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerLarger.dae
-  artifactKey: Guid(afbef892bc830bf47b53f5ce1f23df7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerLarger.dae using Guid(afbef892bc830bf47b53f5ce1f23df7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e182e111358335e69b90819ff8f91fd3') in 0.022647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCurved.dae
-  artifactKey: Guid(d6b45bc5407b947ebb5554885b9a6d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCurved.dae using Guid(d6b45bc5407b947ebb5554885b9a6d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1085f8458d4b365c08981c69c96f5c1') in 0.023674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerSmallSand.dae
-  artifactKey: Guid(803739c79381e5841997b331f0ad9ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerSmallSand.dae using Guid(803739c79381e5841997b331f0ad9ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06220c163de537b695422028dc790559') in 0.016403 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerLargerWall.dae
-  artifactKey: Guid(29dc366e0c600fb4bb7000a35bb1d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerLargerWall.dae using Guid(29dc366e0c600fb4bb7000a35bb1d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a766b945cebd5c37b3a94e643b8309d6') in 0.019241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerLargeBorderInner.dae
-  artifactKey: Guid(e178ecf5b62f0b24bb3a0e70e9075313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerLargeBorderInner.dae using Guid(e178ecf5b62f0b24bb3a0e70e9075313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7593f44e5524c37002f43346a62c8872') in 0.019615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Models/Circuito/Curvas/roadSplitLarger.dae
-  artifactKey: Guid(f50ce3548e1ca40d5ac3484dda54542d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadSplitLarger.dae using Guid(f50ce3548e1ca40d5ac3484dda54542d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf04564ad20a166c1328642efd75c5e') in 0.023579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Models/Circuito/Curvas/roadSplitLarge.dae
-  artifactKey: Guid(937e774594cff4e409b2680f8a27fd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadSplitLarge.dae using Guid(937e774594cff4e409b2680f8a27fd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e5044fe9d9736f95221505f3b9e84a') in 0.023366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerLargerSandInner.dae
-  artifactKey: Guid(e1a3b55c8402e8148a3bc8001873c800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerLargerSandInner.dae using Guid(e1a3b55c8402e8148a3bc8001873c800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0c5626dc8aeb21574ec120475bbe3a') in 0.016046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Models/Circuito/Curvas/roadCornerLarge.dae
-  artifactKey: Guid(828575f51b8364b168161524ecfa3362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Curvas/roadCornerLarge.dae using Guid(828575f51b8364b168161524ecfa3362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198cd24d593f3ccbb6d706cf9ddfe902') in 0.022845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 248.292239 seconds.
-  path: Assets/Models/Circuito/Saltos
-  artifactKey: Guid(e65b4cc0486f443b9afc08220c9d2ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Saltos using Guid(e65b4cc0486f443b9afc08220c9d2ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48882bebe75b5152de994c446ad186c2') in 0.005196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.078364 seconds.
-  path: Assets/Models/Circuito/Saltos/ramp.dae
-  artifactKey: Guid(2b8c06e5559f83f4d8588e3193d0c3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Saltos/ramp.dae using Guid(2b8c06e5559f83f4d8588e3193d0c3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7515596c08b33a781fcba4f76bd47571') in 0.041457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Models/Circuito/Saltos/roadStraightBridgeStart.dae
-  artifactKey: Guid(fb079552a00b84ce2a73d5f925714b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Saltos/roadStraightBridgeStart.dae using Guid(fb079552a00b84ce2a73d5f925714b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d42a6050d7ef4253459e21f0007ecf0') in 0.024331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Models/Circuito/Saltos/roadBump.dae
-  artifactKey: Guid(4a269d2708e5540cfa8eddb3ac21fa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Saltos/roadBump.dae using Guid(4a269d2708e5540cfa8eddb3ac21fa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdab4347b1fd6b4cbaefea7836a2d369') in 0.023904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Models/Circuito/Saltos/roadRampLong.dae
-  artifactKey: Guid(15024e71fcb8e4300b188d7b7637e326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Saltos/roadRampLong.dae using Guid(15024e71fcb8e4300b188d7b7637e326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1d10c9ff0211e347b16ea0f438d176') in 0.022692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Models/Circuito/Saltos/roadStraightLongBump.dae
-  artifactKey: Guid(f4c351e2b763340fb808263a8b5e29c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Saltos/roadStraightLongBump.dae using Guid(f4c351e2b763340fb808263a8b5e29c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9003ba97aed720ae5730c4416edbb5') in 0.023696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Models/Circuito/Saltos/roadStraightBridgeMid.dae
-  artifactKey: Guid(18af6cf589d4c4bd69613368ac9dc754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Saltos/roadStraightBridgeMid.dae using Guid(18af6cf589d4c4bd69613368ac9dc754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be51b604583dfced479b56c17e9ee530') in 0.022494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Models/Circuito/Saltos/roadRamp.dae
-  artifactKey: Guid(f9b9c305d275d49fbad30f8bd9183a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Saltos/roadRamp.dae using Guid(f9b9c305d275d49fbad30f8bd9183a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2114332dc3f8a4abb8a2a2e6664409') in 0.022826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Models/Circuito/Saltos/roadRampLongCurved.dae
-  artifactKey: Guid(dcac3cadebe2848e8a24dcc21668a38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Saltos/roadRampLongCurved.dae using Guid(dcac3cadebe2848e8a24dcc21668a38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744c10a269a0d900a4c37b74b1dc051c') in 0.022476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Models/Circuito/Saltos/roadRampWall.dae
-  artifactKey: Guid(cd33a98294eaf4524bc374d90c6df089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Saltos/roadRampWall.dae using Guid(cd33a98294eaf4524bc374d90c6df089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e73fd089308d8e7a9e6fab0378ac6c') in 0.022651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Models/Circuito/Saltos/roadStraightBridge.dae
-  artifactKey: Guid(f417c653dda0943f1a87f20338250be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Saltos/roadStraightBridge.dae using Guid(f417c653dda0943f1a87f20338250be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef96710e1bef67097b549a5868e3e2e5') in 0.025959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Models/Circuito/Saltos/roadRampLongCurvedWall.dae
-  artifactKey: Guid(58be2bcaa0b4a4090859b89e4949504c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Saltos/roadRampLongCurvedWall.dae using Guid(58be2bcaa0b4a4090859b89e4949504c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501bd97cd4c38ef2a09eaa004ac2cf79') in 0.023462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Models/Circuito/Saltos/roadRampLongWall.dae
-  artifactKey: Guid(b8b091b7bfc154e51b7483534002c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Circuito/Saltos/roadRampLongWall.dae using Guid(b8b091b7bfc154e51b7483534002c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb528fb940ab51e806fd79d641f24be') in 0.023754 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002726 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.852 seconds
-Domain Reload Profiling:
-	ReloadAssembly (852ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (671ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (231ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (250ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (167ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.7 MB.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.9 MB.
+System memory in use after: 83.0 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2009.
-Total: 2.347200 ms (FindLiveObjects: 0.120100 ms CreateObjectMapping: 0.043100 ms MarkObjects: 2.166300 ms  DeleteObjects: 0.017000 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1963.
+Total: 3.566200 ms (FindLiveObjects: 0.126800 ms CreateObjectMapping: 0.046100 ms MarkObjects: 3.279700 ms  DeleteObjects: 0.112400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -568,3 +129,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Karting.unity
+  artifactKey: Guid(4885e54836235864c9d66f983137bdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Karting.unity using Guid(4885e54836235864c9d66f983137bdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4969b11cdff61ec80d8a60166f523c') in 0.010848 seconds 
